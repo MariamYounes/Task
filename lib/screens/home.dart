@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:task/screens/quiz.dart';
 import 'package:task/screens/result.dart';
@@ -79,13 +77,6 @@ class _HomeState extends State<Home> {
     });
     print(_questionIndex);
     print(totalScore);
-  }
-
-  @override
-  void dispose() {
-    question.shuffle();
-    super.dispose();
-    
   }
 
   @override
